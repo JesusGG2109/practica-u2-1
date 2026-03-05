@@ -11,12 +11,29 @@ document.getElementById("colorBtn").addEventListener("click", () => {
 const members = [
   {
     photo: "alumno1.jpg",
-    description: "Jesús - Estudiante de Ingeniería en Software."
+    description: "Jesús - Estudiante de Ingeniería en Sistemas."
   },
   {
     photo: "alumno2.jpg",
-    description: "Cesar - Desarrollador en formación."
+    description: "Cesar - Estudiante de Ingeniería en Sistemas."
+  },
+  {
+    photo: "alumno3.jpg",
+    description: "Martín - Estudiante de Ingeniería en Sistemas."
+  },
+  {
+    photo: "alumno4.jpg",
+    description: "Eduardo - Estudiante de Ingeniería en Sistemas."
+  },
+  {
+    photo: "alumno5.jpg",
+    description: "Esteban - Estudiante de Ingeniería en Sistemas."
+  },
+  {
+    photo: "alumno6.jpg",
+    description: "Bere - Estudiante de Ingeniería en Sistemas."
   }
+
 ];
 
 let memberIndex = 0;
