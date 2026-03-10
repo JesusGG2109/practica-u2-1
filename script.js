@@ -37,29 +37,22 @@ const members = [
 ];
 
 let memberIndex = 0;
-/*
-document.getElementById("switchBtn").addEventListener("click", () => {
-  memberIndex = (memberIndex + 1) % members.length;
-
-  document.getElementById("photo").src = members[memberIndex].photo;
-  document.getElementById("description").textContent =
-    members[memberIndex].description;
-*/
 const card = document.querySelector(".card");
+
 document.getElementById("switchBtn").addEventListener("click", () => {
   card.classList.remove("fade-in");
   card.classList.add("fade-out");
 
   setTimeout(() => {
+
     memberIndex = (memberIndex + 1) % members.length;
 
     document.getElementById("photo").src = members[memberIndex].photo;
     document.getElementById("description").textContent =
-     members[memberIndex].description;
+      members[memberIndex].description;
 
     card.classList.remove("fade-out");
     card.classList.add("fade-in");
   }, 600);
-
 
 });
