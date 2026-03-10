@@ -5,12 +5,34 @@ body {
   transition: background-color 0.5s ease;
 }
 
+@font-face{
+    font-family: 'CHICKENPie';
+    src: url('CHICKEN\ Pie.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'Babylon';
+    src: url('Babylon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
-  color: #333;
+  color: #23bea2;
+  font-size: 40px;
+  font-family: 'CHICKENPie', cursive;
+  margin-bottom: 20px;
 }
 
 #team-name {
   color: #007BFF;
+  font-size: 40px;
+  font-family: 'Babylon', cursive;
+  margin-bottom: 20px;
 }
 
 .card {

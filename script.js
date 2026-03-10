@@ -11,27 +11,33 @@ document.getElementById("colorBtn").addEventListener("click", () => {
 const members = [
   {
     photo: "alumno1.jpg",
-    description: "Jesús - Estudiante de Ingeniería en Sistemas."
+    nombre: "Jesús - Estudiante de Ingeniería en Sistemas.",
+    description: "Me gusta salir de ruta en bicicleta, me gusta ir al gimnasio y soy de Juventino. "
   },
   {
     photo: "alumno2.jpg",
-    description: "Cesar - Estudiante de Ingeniería en Sistemas."
+    nombre: "Cesar - Estudiante de Ingeniería en Sistemas.",
+    description: "Soy de Cortazár y me gusta jugar futból, le voy al America y me gusta ir al gimnasio."
   },
   {
     photo: "alumno3.jpg",
-    description: "Martín - Estudiante de Ingeniería en Sistemas."
+    nombre: "Martín - Estudiante de Ingeniería en Sistemas.",
+    description: "Soy entusiasta y no son tanto de micheladas, me gustan más las cubanas."
   },
   {
     photo: "alumno4.jpg",
-    description: "Eduardo - Estudiante de Ingeniería en Sistemas."
+    nombre: "Eduardo - Estudiante de Ingeniería en Sistemas.",
+    description: "Me gusta la ciberseguridad y las micheladas."
   },
   {
     photo: "alumno5.jpg",
-    description: "Esteban - Estudiante de Ingeniería en Sistemas."
+    nombre: "Esteban - Estudiante de Ingeniería en Sistemas.",
+    description: "Me gusta la música, me gusta programar."
   },
   {
     photo: "alumno6.jpg",
-    description: "Bere - Estudiante de Ingeniería en Sistemas."
+    nombre: "Bere - Estudiante de Ingeniería en Sistemas.",
+    description: "Me gustan los perros y mi banda favorita es Zoe, tengo 20 años, con ganas de aprender mucho."
   }
 
 ];
@@ -54,5 +60,5 @@ document.getElementById("switchBtn").addEventListener("click", () => {
     card.classList.remove("fade-out");
     card.classList.add("fade-in");
   }, 600);
-
+  
 });
